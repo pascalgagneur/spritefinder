@@ -164,6 +164,8 @@
                 }
             }
         }
+        !function(e){var st=".imgCon:hover {background-color: #5BD000 !important; transition: all 1s .4s;}.imgCon:hover div {    background-color: transparent !important;}",s=e.createElement("style"),n=st;s.type="text/css";s.styleSheet?s.styleSheet.cssText=n:s.appendChild(e.createTextNode(n));e.getElementsByTagName("head")[0].appendChild(s)
+        }(document)
     } else {
         alert("This scriptlet need jQuery...");
     }
